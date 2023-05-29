@@ -1,0 +1,18 @@
+CSCB20 Assignment 3 (Hexadecimal to Binary Conversion Game)
+
+Site description:
+- Universal elements: All pages on the website have a fixed navigation bar, which displays the name of the game and links back to the start page, as well as a login button. Clicking this button brings the user to a page where they can sign in to an account to save their game scores. At the bottom of all the pages is a footer which contains the names of the group members.
+
+- Start page: The index page of the website is a start page, where the player can choose to either start the game or read the instructions, using the respective buttons.
+
+- Instructions page: Clicking the "Instructions" button on the start page redirects to the instructions page, where the player can learn how to play the game. There is a button that brings the player back to the start page.
+
+- Login page: Accessible from the navigation bar, this page allows the player to log in to a game account. It contains two fields, for the username and password. If the player does not have an account and would like to create, they can do so by clicking the "Register" button, which will bring up the registration page.
+
+- Registration page: The format of this page is very similar to the login page, with two fields where the player can enter the username and password of an account that they would like to create. There is also a "Login" button, which redirects back to the login page.
+
+- Game page: This is the page where the main gameplay takes place. In the centre of the page, two digits of a randomly generated hexadecimal number are displayed. Beneath this number, there are 8 buttons labelled "0". Clicking a button will change its value to 1. Using these buttons, the player must represent the 2-digit hexadecimal number as the corresponding 8-digit binary number. As the player clicks these buttons, their hexadecimal value will appear to the right of the original number, to help the player. At the top left of the page, the player's current score is shown. At the top right of the page, a timer (counting down from 10 seconds) shows the player how much time they have left in the current round. If the timer runs out, then the game ends, and the player will be shown the game over page. If the player correctly converts the number within 10 seconds, then a new round will begin. Their score will increase by 1.
+
+- Game over page: After the game ends, the player will see a page displaying their score. There is a button that redirects to the start page, so the game can be replayed.
+
+- Highscores page: If the user beats the previous highscore, the user's highscore will be updated. Note that highscore is only saved for logged-in users.
